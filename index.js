@@ -21,12 +21,14 @@
 // 1 - needs improvement
 // anything else - wtf?
 
-let rating = 1;
+let rating = 2;
 if (rating === 3) {
   console.log('You are a superstar!');
 } else if (rating === 2) {
   console.log('meets expectations!');
 } else if (rating === 1) {
   console.log('needs improvement!');
+} else {
+  console.log('Invalid Rating!')
 }
 
