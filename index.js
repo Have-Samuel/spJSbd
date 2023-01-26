@@ -1,1 +1,3 @@
-alert('This Works!');
+if (1 !== 1) {
+  console.log("It's true!")
+}
