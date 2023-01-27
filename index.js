@@ -44,3 +44,13 @@ console.log(reversedData)
 // join()
 const joinedData = alphas.reverse().join()
 console.log(joinedData)
+
+//slice
+let animalKingdom = ['shark', 'whale', 'dolphine', 'bear', 'tortoise', 'lizard']
+let swimmers = animalKingdom.slice(0, 3)
+console.log(swimmers)
+let aniGround = animalKingdom.slice(3)
+console.log(aniGround)
+let midAni = animalKingdom.slice(2, 5)
+console.log(midAni)
+console.log(animalKingdom)
