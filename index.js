@@ -11,7 +11,15 @@
 
 // const rejectedGame = games.pop();
 
-let animals = ['cow', 'goat', 'pig', 'hen', 'cat']
-animals.unshift('elephant')
+// let animals = ['cow', 'goat', 'pig', 'hen', 'cat']
+// animals.unshift('elephant')
 
-animals.shift()
+// animals.shift()
+
+let nums = [12, 23, 13, 34]
+let floats = [19, 39, 29, 81, 98];
+let int = [90, 97, 91, 94, 50]
+
+const allTogether = nums.concat(floats, int)
+
+console.log(allTogether);
