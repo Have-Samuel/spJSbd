@@ -31,3 +31,6 @@ console.log(allFruits)
 if (fruits.includes('paw paw')) {
   console.log('I cant have that for lunch!')
 }
+
+const selectedFruit = fruits.indexOf('guava')
+console.log(selectedFruit);
