@@ -54,3 +54,12 @@ console.log(aniGround)
 let midAni = animalKingdom.slice(2, 5)
 console.log(midAni)
 console.log(animalKingdom)
+
+//splice
+let wild = ['cow', 'goat', 'pig', 'hen', 'cat', 'lion', 'snake'];
+const newOne = wild.splice(1, 0, 'pig')
+console.log(newOne)
+const secondOne = wild.splice(2, 2)
+console.log(secondOne)
+const thirdOne = wild.splice(3, 0, 'BOOKS')
+console.log(thirdOne)
