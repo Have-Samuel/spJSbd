@@ -134,19 +134,28 @@ let day = 9;
 //     console.log('INVALID DAY!');
 // }
 
-let emoji = 'happy face';
+// let emoji = 'happy face';
 
-switch (emoji) {
-  case 'happy face':
-  case 'sad face':
-    console.log('YELLOW!')
-    break;
-  case 'lips':
-  case 'heart':
-    console.log('RED!')
-    break;
-  case 'Afraid':
-    console.log('PURPLE!')
-    break;
-  default:
-}
+// switch (emoji) {
+//   case 'happy face':
+//   case 'sad face':
+//     console.log('YELLOW!')
+//     break;
+//   case 'lips':
+//   case 'heart':
+//     console.log('RED!')
+//     break;
+//   case 'Afraid':
+//     console.log('PURPLE!')
+//     break;
+//   default:
+// }
+
+let num = 8;
+// if (num === 8) {
+//   console.log('LUCKY!')
+// } else {
+//   console.log('BAD!')
+// }
+
+num === 8 ? console.log('LUCKY!') : console.log('BAD!');
