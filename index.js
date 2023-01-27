@@ -168,4 +168,42 @@ let day = 9;
 // //   color = 'green'
 // // }
 
-// let color = status === 'offline' ? 'red' : 'green'; 
+// let color = status === 'offline' ? 'red' : 'green';
+
+// Exe Final-1
+
+let isLearning = true;
+if (isLearning) {
+  console.log('Keep it up!');
+} else {
+  console.log('Pretty sure you are learning....');
+}
+// Exe Final-2
+let firstVariable;
+let secondVariable = '';
+let thirdVariable = 1;
+let secretMessage = 'Ssh!';
+
+if (firstVariable) {
+  console.log('first')
+} else if (firstVariable || secondVariable) {
+  console.log('second')
+} else if (firstVariable || thirdVariable) {
+  console.log('third')
+} else {
+  console.log('fourth')
+}
+// Exe Final-3
+let func = Math.random
+if (Math.random() > 0.5) {
+  console.log('Over 0.5');
+} else {
+  console.log('Under .05');
+}
+
+// - 0
+// - ''
+// - undefined
+// - null
+// - false
+// - NaN
