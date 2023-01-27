@@ -32,3 +32,14 @@ if (rating === 3) {
   console.log('Invalid Rating!')
 }
 
+// Exe2 
+
+let highScore = 1430;
+let userScore = 1600;
+
+if (userScore >= highScore) {
+  console.log(`Congrats. you have the new high score of ${userScore}`);
+  highScore = userScore;
+} else {
+  console.log(`Cood Game, Your score of ${userScore} did not beat the score of ${highScore}`);
+}
