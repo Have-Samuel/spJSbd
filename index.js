@@ -68,3 +68,13 @@ console.log(thirdOne)
 let names = ['yamu', 'nuru', 'mula', 'gula', 'zaka', 'angel', 'boboka']
 const sortedData = names.sort()
 console.log(sortedData)
+
+// nested arrays
+const maleFamale = [
+  ['doe', 'back'],
+  ['ewe', 'ram'],
+  ['peahen', 'peacock']
+]
+
+const select = maleFamale[1][1] = 'stag';
+console.log(maleFamale)
