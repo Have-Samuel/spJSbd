@@ -4,9 +4,14 @@
 
 // shopping[shopping.length]  = 'dounat'
 
-let games = ['football', 'rugby', 'netball', 'handball', 'cricket', 'basketball'];
-games.push('badminton');
+// let games = ['football', 'rugby', 'netball', 'handball', 'cricket', 'basketball'];
+// games.push('badminton');
 
-games.pop();
+// games.pop();
 
-const rejectedGame = games.pop();
+// const rejectedGame = games.pop();
+
+let animals = ['cow', 'goat', 'pig', 'hen', 'cat']
+animals.unshift('elephant')
+
+animals.shift()
