@@ -47,12 +47,30 @@ if (userScore >= highScore) {
 // Exe3
 let password = 'samie';
 
-if (password.length >= 6) {
-  if (password.indexOf(' ') === -1) {
-    console.log('Valid password!')
-  } else {
-    console.log('The password is long enough, can\'t contain spaces!');
-  }
+// if (password.length >= 6) {
+//   if (password.indexOf(' ') === -1) {
+//     console.log('Valid password!')
+//   } else {
+//     console.log('The password is long enough, can\'t contain spaces!');
+//   }
+// } else {
+//   console.log('The password must be longer!');
+// }
+
+// let pasword = 'houseton'
+
+// if (pasword.length >= 8 && pasword.indexOf(' ') === -1) {
+//   console.log('Valid Pasword');
+// } else {
+//   console.log('Invalid Pasword');
+// }
+
+// 1-10
+
+let num = 3;
+
+if (num >= 1 && num <= 10) {
+  console.log('Number is btn 1 and 10');
 } else {
-  console.log('The password must be longer!');
+  console.log('Please enter a number in between 1 and 10')
 }
