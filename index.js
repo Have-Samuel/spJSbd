@@ -75,9 +75,15 @@ let password = 'samie';
 //   console.log('Please enter a number in between 1 and 10')
 // }
 
-let age = 50;
-if (age < 10 || age >= 65) {
-  console.log('You are free to enter!');
-} else {
-  console.log('You Must PAYYY!');
+// let age = 50;
+// if (age < 10 || age >= 65) {
+//   console.log('You are free to enter!');
+// } else {
+//   console.log('You Must PAYYY!');
+// }
+
+let flavour = 'watermelon';
+
+if (flavour !== 'cherry' && flavour !== 'grape') {
+  console.log('We don\'t have that Flavour avialable!');
 }
