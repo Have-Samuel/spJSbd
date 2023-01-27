@@ -78,3 +78,42 @@ const maleFamale = [
 
 const select = maleFamale[1][1] = 'stag';
 console.log(maleFamale)
+
+// Arrays Exercise
+const people = ['Greg', 'Mary', 'Devon', 'James'];
+// removes elements from the front of the array
+const remover = people.shift();
+console.log(remover);
+console.log(people);
+
+// removes elements from the end
+const secondRemover = people.pop()
+console.log(secondRemover);
+console.log(people);
+
+// adds elements at the front of the array
+const addData = people.unshift('Matt');
+console.log(people);
+
+// Adding element to end of the array
+people.push('Have');
+console.log(people);
+
+// copying the array, with excludes => slice
+const oneOfTheOther = people.slice(1)
+console.log(oneOfTheOther)
+
+// shows index of
+const index = people.indexOf('Mary')
+console.log(index)
+const index2 = people.indexOf('Foo');
+console.log(index2);
+
+// Using splice
+const people2 = ['Greg', 'Mary', 'Devon', 'James'];
+const getOn = people2.splice(2, 1, 'Elizabeth', 'Artie')
+console.log(people2)
+
+
+const withBob = people2.concat('Bob');
+console.log(withBob)
