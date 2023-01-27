@@ -63,3 +63,8 @@ const secondOne = wild.splice(2, 2)
 console.log(secondOne)
 const thirdOne = wild.splice(3, 0, 'BOOKS')
 console.log(thirdOne)
+
+// sort()
+let names = ['yamu', 'nuru', 'mula', 'gula', 'zaka', 'angel', 'boboka']
+const sortedData = names.sort()
+console.log(sortedData)
