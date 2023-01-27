@@ -43,3 +43,16 @@ if (userScore >= highScore) {
 } else {
   console.log(`Cood Game, Your score of ${userScore} did not beat the score of ${highScore}`);
 }
+
+// Exe3
+let password = 'samie';
+
+if (password.length >= 6) {
+  if (password.indexOf(' ') === -1) {
+    console.log('Valid password!')
+  } else {
+    console.log('The password is long enough, can\'t contain spaces!');
+  }
+} else {
+  console.log('The password must be longer!');
+}
