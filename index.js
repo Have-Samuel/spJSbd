@@ -67,10 +67,17 @@ let password = 'samie';
 
 // 1-10
 
-let num = 3;
+// let num = 3;
 
-if (num >= 1 && num <= 10) {
-  console.log('Number is btn 1 and 10');
+// if (num >= 1 && num <= 10) {
+//   console.log('Number is btn 1 and 10');
+// } else {
+//   console.log('Please enter a number in between 1 and 10')
+// }
+
+let age = 50;
+if (age < 10 || age >= 65) {
+  console.log('You are free to enter!');
 } else {
-  console.log('Please enter a number in between 1 and 10')
+  console.log('You Must PAYYY!');
 }
