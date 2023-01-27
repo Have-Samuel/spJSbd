@@ -21,28 +21,28 @@
 // 1 - needs improvement
 // anything else - wtf?
 
-let rating = 2;
-if (rating === 3) {
-  console.log('You are a superstar!');
-} else if (rating === 2) {
-  console.log('meets expectations!');
-} else if (rating === 1) {
-  console.log('needs improvement!');
-} else {
-  console.log('Invalid Rating!')
-}
+// let rating = 2;
+// if (rating === 3) {
+//   console.log('You are a superstar!');
+// } else if (rating === 2) {
+//   console.log('meets expectations!');
+// } else if (rating === 1) {
+//   console.log('needs improvement!');
+// } else {
+//   console.log('Invalid Rating!')
+// }
 
-// Exe2 
+// // Exe2 
 
-let highScore = 1430;
-let userScore = 1600;
+// let highScore = 1430;
+// let userScore = 1600;
 
-if (userScore >= highScore) {
-  console.log(`Congrats. you have the new high score of ${userScore}`);
-  highScore = userScore;
-} else {
-  console.log(`Cood Game, Your score of ${userScore} did not beat the score of ${highScore}`);
-}
+// if (userScore >= highScore) {
+//   console.log(`Congrats. you have the new high score of ${userScore}`);
+//   highScore = userScore;
+// } else {
+//   console.log(`Cood Game, Your score of ${userScore} did not beat the score of ${highScore}`);
+// }
 
 // Exe3
 let password = 'samie';
@@ -151,11 +151,21 @@ let day = 9;
 //   default:
 // }
 
-let num = 8;
-// if (num === 8) {
-//   console.log('LUCKY!')
-// } else {
-//   console.log('BAD!')
-// }
+// let num = 8;
+// // if (num === 8) {
+// //   console.log('LUCKY!')
+// // } else {
+// //   console.log('BAD!')
+// // }
 
-num === 8 ? console.log('LUCKY!') : console.log('BAD!');
+// num === 8 ? console.log('LUCKY!') : console.log('BAD!');
+
+// let status = 'online';
+// // let color;
+// // if (status === 'offline') {
+// //   color = 'red'
+// // } else {
+// //   color = 'green'
+// // }
+
+// let color = status === 'offline' ? 'red' : 'green'; 
