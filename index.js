@@ -88,22 +88,65 @@ let password = 'samie';
 //   console.log('We don\'t have that Flavour avialable!');
 // }
 
-let day = '9';
+let day = 9;
 
-if (day === '1') {
-  console.log('Monday!')
-} else if (day === '2') {
-  console.log('Tuesady!');
-} else if (day === '3') {
-  console.log('Wednesday!')
-} else if (day === '4') {
-  console.log('Thursday!')
-} else if (day === '5') {
-  console.log('Friday')
-} else if (day === '6') {
-  console.log('Saturday!')
-} else if (day === '7') {
-  console.log('Sunday!')
-} else {
-  console.log('Invalid!')
+// if (day === 1) {
+//   console.log('Monday!')
+// } else if (day === 2) {
+//   console.log('Tuesady!');
+// } else if (day === 3) {
+//   console.log('Wednesday!')
+// } else if (day === 4) {
+//   console.log('Thursday!')
+// } else if (day === 5) {
+//   console.log('Friday')
+// } else if (day === 6) {
+//   console.log('Saturday!')
+// } else if (day === 7) {
+//   console.log('Sunday!')
+// } else {
+//   console.log('Invalid Day!')
+// }
+
+// switch (day) {
+//   case 1:
+//     console.log('MONDAY!')
+//     break;
+//   case 2:
+//     console.log('TUESDAY!')
+//     break;
+//   case 3:
+//     console.log('WEDNESDAY!')
+//     break;
+//   case 4:
+//     console.log('THURSDAY!')
+//     break;
+//   case 5:
+//     console.log('FRIDAY!')
+//     break;
+//   case 6:
+//     console.log('SATURDAY!')
+//     break;
+//   case 7:
+//     console.log('SUNDAY!')
+//     break;
+//   default:
+//     console.log('INVALID DAY!');
+// }
+
+let emoji = 'happy face';
+
+switch (emoji) {
+  case 'happy face':
+  case 'sad face':
+    console.log('YELLOW!')
+    break;
+  case 'lips':
+  case 'heart':
+    console.log('RED!')
+    break;
+  case 'Afraid':
+    console.log('PURPLE!')
+    break;
+  default:
 }
