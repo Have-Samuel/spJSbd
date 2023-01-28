@@ -229,7 +229,6 @@ programming.languages[3] = 'Go';
 // Change the difficulty to the value of 7
 programming.difficulty = 7;
 // command to remove the jokes key from the programming object.
-programming.languages.pop()
-console.log(programming)
+delete programming.jokes;
 // command to add a new key called isFun and a value of true
 programming.isFun = true;
