@@ -380,3 +380,20 @@ let weirdOb = {
   nullValue: null,
 };
 console.log(Object.values(weirdOb));
+
+// NESTED ARRAYS
+const tictaktoe = [
+  ['X', 'O', 'X'],
+  ['X', 'O', 'X'],
+  ['X', 'O', 'X']
+];
+
+const maze = [
+  [1,0,1,0,1, 'END'],
+  [0,1,0,0,1,0],
+  [0,0,1,0,0,0],
+  [1,0,1,0,0,0],
+  [0,1,0,0,1,0],
+  [1,1,1,0,0,1],
+  ['START',0,0,0,0,0]
+]
