@@ -231,3 +231,5 @@ programming.difficulty = 7;
 // command to remove the jokes key from the programming object.
 programming.languages.pop()
 console.log(programming)
+// command to add a new key called isFun and a value of true
+programming.isFun = true;
