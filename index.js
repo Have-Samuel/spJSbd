@@ -355,6 +355,9 @@ for (i = 0; i < 5; i++) {
 }
 
 // OBJECT KEYS
+// Accepts an object
+// Returns an array of the object’s keys
+// Keys are in the same order as in a for…in loop
 let weirdObj = {
   hereIsAKey: 'here is a value',
   '10': 'number key!',
@@ -363,3 +366,17 @@ let weirdObj = {
   nullValue: null
 }
 console.log(Object.keys(weirdObj));
+
+// OBJECT.VALUES
+// Accepts an object
+// Returns an array of the object’s values
+// Values are in the same order as in a for…in loop
+
+let weirdOb = {
+  hereIsAKey: 'here is a value',
+  10: 'number key!',
+  thisIsABooleam: true,
+  5: 'another numberkey!',
+  nullValue: null,
+};
+console.log(Object.values(weirdOb));
