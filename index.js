@@ -347,3 +347,9 @@ for (let i = 0; i < str.length; i++) {
 }
 
 // CONTINUE
+for (i = 0; i < 5; i++) {
+  if (i > 2 && i < 4) {
+    continue; // skip these numbers!
+  }
+  console.log(i)
+}
