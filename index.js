@@ -335,3 +335,15 @@ while (t < 3) {
   console.log(t)
   t++;
 }
+
+//BREAK
+//find the index of a character, like string.indexOf()
+let idx;
+for (let i = 0; i < str.length; i++) {
+  if (str[i] === 't') {
+    idx = i;
+    break;// since we no longer need to searc the string
+  }
+}
+
+// CONTINUE
