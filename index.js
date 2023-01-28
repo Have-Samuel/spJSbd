@@ -433,3 +433,8 @@ let data = {
     }
   ]
 };
+
+// Iterating over an Array in an object
+for (let album of data.albums) {
+  console.log('The title is', album.title)
+}
