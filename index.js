@@ -413,3 +413,23 @@ for (let i = 0; i < tictoktoe.length; i++) {
     }
   }
 }
+
+//Nested Objects
+let data = {
+  artist: 'The Beatles',
+  albums: [
+    {
+      title: 'Abbey Road',
+      producer: 'George Martin',
+      releaseYear: 1969,
+      numTracks: 17,
+      length: '47:23'
+    },
+    {
+      title: 'Sgt. Pepper\'s Lonely Hearts Club Band',
+      producer: 'George Martin',
+      releaseYear: 1967,
+      numTracks: 13
+    }
+  ]
+};
