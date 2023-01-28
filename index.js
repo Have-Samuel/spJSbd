@@ -311,3 +311,12 @@ for (let key in states) {
 }
 
 // Looping Through Strings
+let str = 'pancakes';
+// does the string include a 'k'
+let includesK = false;
+
+for (let x = 0; x < str.length; x++) {
+  if (str[x] === 'k') {
+    includesK = true;
+  }
+}
