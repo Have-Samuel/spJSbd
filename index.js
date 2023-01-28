@@ -141,6 +141,9 @@ const palette = {
   blue: '#30336b'
 };
 
+const palette2 = palette;
+palette2.brown = '#2b4409'
+
 let mysteryColor = 'blue';
 // Adding elements into an Object
 const reviews = {};
