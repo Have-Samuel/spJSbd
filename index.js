@@ -438,3 +438,7 @@ let data = {
 for (let album of data.albums) {
   console.log('The title is', album.title)
 }
+
+for (num = 1; num <= 20; num++) {
+console.log(`${num}X${num}= ${num}*${num}`)
+}
