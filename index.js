@@ -353,3 +353,13 @@ for (i = 0; i < 5; i++) {
   }
   console.log(i)
 }
+
+// OBJECT KEYS
+let weirdObj = {
+  hereIsAKey: 'here is a value',
+  '10': 'number key!',
+  thisIsABooleam: true,
+  '5': 'another numberkey!',
+  nullValue: null
+}
+console.log(Object.keys(weirdObj));
