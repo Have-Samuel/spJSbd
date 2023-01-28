@@ -205,4 +205,14 @@ const game = {
 
 let nums = [1, 2, 3];
 let moreNums = [1, 2, 3]
-let otherNums = nums;
+let otherNums = nums
+
+const user = {
+  userName: 'HaveSam',
+  email: 'muelohave9@gmail.com',
+  notifications: []
+}
+
+if (!user.notifications.length) {
+  console.log('Nothing is there!')
+}
