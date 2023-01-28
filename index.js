@@ -210,7 +210,7 @@ let otherNums = nums
 const user = {
   userName: 'HaveSam',
   email: 'muelohave9@gmail.com',
-  notifications: []
+  notifications: ['message']
 }
 
 if (!user.notifications.length) {
