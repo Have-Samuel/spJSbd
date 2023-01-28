@@ -227,5 +227,5 @@ let programming = {
 // command to add the language
 programming.languages[3] = 'Go';
 // Change the difficulty to the value of 7
-// programming.difficulty = 7;
+programming.difficulty = 7;
 // 
