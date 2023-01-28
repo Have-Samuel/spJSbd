@@ -389,11 +389,27 @@ const tictaktoe = [
 ];
 
 const maze = [
-  [1,0,1,0,1, 'END'],
-  [0,1,0,0,1,0],
-  [0,0,1,0,0,0],
-  [1,0,1,0,0,0],
-  [0,1,0,0,1,0],
-  [1,1,1,0,0,1],
-  ['START',0,0,0,0,0]
-]
+  [1, 0, 1, 0, 1, 'END'],
+  [0, 1, 0, 0, 1, 0],
+  [0, 0, 1, 0, 0, 0],
+  [1, 0, 1, 0, 0, 0],
+  [0, 1, 0, 0, 1, 0],
+  [1, 1, 1, 0, 0, 1],
+  ['START', 0, 0, 0, 0, 0]
+];
+
+// Iterating over Nested Arrays
+const tictoktoe = [
+  ['X', 'O', 'X'],
+  ['X', 'O', 'X'],
+  ['X', 'O', 'X'],
+];
+let xCount = 0;
+
+for (let i = 0; i < tictoktoe.length; i++) {
+  for (let j = 0; j < tictoktoe[i].length; j++) {
+    if (tictoktoe[i][j] === 'X') {
+      xCount++
+    }
+  }
+}
