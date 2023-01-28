@@ -118,117 +118,123 @@
 // const withBob = people2.concat('Bob');
 // console.log(withBob)
 
-// OBJECTS
-const fitBitdData = {
-  totalSteps: 308727,
-  totalMiles: 211.7,
-  avgCalorieBurn: 5755,
-  workOutsThisWeek: '5 of 7',
-  avgGoodSleep: '3:13'
+// // OBJECTS
+// const fitBitdData = {
+//   totalSteps: 308727,
+//   totalMiles: 211.7,
+//   avgCalorieBurn: 5755,
+//   workOutsThisWeek: '5 of 7',
+//   avgGoodSleep: '3:13'
+// }
+
+// const numbers = {
+//   100: 'one hundred',
+//   16: 'sixteen'
+// }
+
+// const find = numbers[100]
+// console.log(find);
+
+// const palette = {
+//   red: '#eb4dd4d',
+//   yellow: '#f9ca24',
+//   blue: '#30336b'
+// };
+
+// const palette2 = palette;
+// palette2.brown = '#2b4409'
+
+// let mysteryColor = 'blue';
+// // Adding elements into an Object
+// const reviews = {};
+
+// reviews['queenBee34'] = 45;
+// reviews['mrSmith45'] = 3.03;
+// reviews.gyal71 = 90.23;
+
+// // Nesting arrays into objects
+
+// const student = {
+//   firstName: 'Have',
+//   secondName: 'Peace',
+//   strength: ['football', 'Atheletics'],
+//   exams: {
+//     midterm: 86,
+//     final: 70
+//   }
+// };
+// const avg = (student.exams.midterm + student.exams.final) / 2;
+// console.log(avg);
+
+// const index = student.strength[0]
+// console.log(index);
+
+// const shoppingCart = [
+//   {
+//     product: 'jenga Classic',
+//     price: 6.88,
+//     quantity: 1
+//   },
+//   {
+//     product: 'Echo Dot',
+//     price: 29.88,
+//     quantity: 3
+//   },
+//   {
+//     product: 'Fire Stick',
+//     price: 39.99,
+//     quantity: 2
+//   },
+// ];
+
+// const game = {
+//   player1: {
+//     userName: 'Blue',
+//     playingAs: 'X'
+//   },
+//   player2: {
+//     userName: 'Muffins',
+//     playingAs: 'o'
+//   },
+//   board: [
+//     ['o', null, 'X'],
+//     ['X', 'o', null],
+//     [null, 'o', 'X']
+//   ]
+// };
+
+// let nums = [1, 2, 3];
+// let moreNums = [1, 2, 3]
+// let otherNums = nums
+
+// const user = {
+//   userName: 'HaveSam',
+//   email: 'muelohave9@gmail.com',
+//   notifications: ['message']
+// }
+
+// if (!user.notifications.length) {
+//   console.log('Nothing is there!')
+// }
+
+// let programming = {
+//   languages: ['Javascript', 'Python', 'Ruby'],
+//   isChallengeing: true,
+//   isRewarding: true,
+//   difficulty: 8,
+//   jokes: "https://bit.ly/2ysFran"
+// };
+// // command to add the language
+// programming.languages[3] = 'Go';
+// // Change the difficulty to the value of 7
+// programming.difficulty = 7;
+// // command to remove the jokes key from the programming object.
+// delete programming.jokes;
+// // command to add a new key called isFun and a value of true
+// programming.isFun = true;
+
+// LOOPS
+// Loop for ODD NUMS
+for (let i = 1; i <= 10; i += 2) {
+  console.log(i)
 }
-
-const numbers = {
-  100: 'one hundred',
-  16: 'sixteen'
-}
-
-const find = numbers[100]
-console.log(find);
-
-const palette = {
-  red: '#eb4dd4d',
-  yellow: '#f9ca24',
-  blue: '#30336b'
-};
-
-const palette2 = palette;
-palette2.brown = '#2b4409'
-
-let mysteryColor = 'blue';
-// Adding elements into an Object
-const reviews = {};
-
-reviews['queenBee34'] = 45;
-reviews['mrSmith45'] = 3.03;
-reviews.gyal71 = 90.23;
-
-// Nesting arrays into objects
-
-const student = {
-  firstName: 'Have',
-  secondName: 'Peace',
-  strength: ['football', 'Atheletics'],
-  exams: {
-    midterm: 86,
-    final: 70
-  }
-};
-const avg = (student.exams.midterm + student.exams.final) / 2;
-console.log(avg);
-
-const index = student.strength[0]
-console.log(index);
-
-const shoppingCart = [
-  {
-    product: 'jenga Classic',
-    price: 6.88,
-    quantity: 1
-  },
-  {
-    product: 'Echo Dot',
-    price: 29.88,
-    quantity: 3
-  },
-  {
-    product: 'Fire Stick',
-    price: 39.99,
-    quantity: 2
-  },
-];
-
-const game = {
-  player1: {
-    userName: 'Blue',
-    playingAs: 'X'
-  },
-  player2: {
-    userName: 'Muffins',
-    playingAs: 'o'
-  },
-  board: [
-    ['o', null, 'X'],
-    ['X', 'o', null],
-    [null, 'o', 'X']
-  ]
-};
-
-let nums = [1, 2, 3];
-let moreNums = [1, 2, 3]
-let otherNums = nums
-
-const user = {
-  userName: 'HaveSam',
-  email: 'muelohave9@gmail.com',
-  notifications: ['message']
-}
-
-if (!user.notifications.length) {
-  console.log('Nothing is there!')
-}
-
-let programming = {
-  languages: ['Javascript', 'Python', 'Ruby'],
-  isChallengeing: true,
-  isRewarding: true,
-  difficulty: 8,
-  jokes: "https://bit.ly/2ysFran"
-};
-// command to add the language
-programming.languages[3] = 'Go';
-// Change the difficulty to the value of 7
-programming.difficulty = 7;
-// command to remove the jokes key from the programming object.
-delete programming.jokes;
-// command to add a new key called isFun and a value of true
-programming.isFun = true;
