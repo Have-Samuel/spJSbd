@@ -328,3 +328,10 @@ for (let i = myStr.length - 1; i >= 0; i--) {
   reversed += myStr[i];
 }
 console.log(reversed);
+
+// WHILE LOOP
+let t = 0;
+while (t < 3) {
+  console.log(t)
+  t++;
+}
