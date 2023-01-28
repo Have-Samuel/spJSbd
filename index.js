@@ -202,3 +202,7 @@ const game = {
     [null, 'o', 'X']
   ]
 };
+
+let nums = [1, 2, 3];
+let moreNums = [1, 2, 3]
+let otherNums = nums;
