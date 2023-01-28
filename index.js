@@ -216,3 +216,16 @@ const user = {
 if (!user.notifications.length) {
   console.log('Nothing is there!')
 }
+
+let programming = {
+  languages: ['Javascript', 'Python', 'Ruby'],
+  isChallengeing: true,
+  isRewarding: true,
+  difficulty: 8,
+  jokes: "https://bit.ly/2ysFran"
+};
+// command to add the language
+programming.languages[3] = 'Go';
+// Change the difficulty to the value of 7
+// programming.difficulty = 7;
+// 
