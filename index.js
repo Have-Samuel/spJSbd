@@ -282,3 +282,32 @@ while (j < cities2.length) {
   console.log(cities2[j]);
   j++;
 }
+
+// FOR OF LOOP
+//By default, for loops in JavaScript iterate through indices
+// With a for…of loop, we can iterate through the elements directly!
+const cities3 = [
+  'San Francisco-3',
+  'Berlin-3',
+  'Tokyo-3',
+  'Moscow-3',
+  'Buenos Aires-3',
+];
+
+for (let city of cities3) {
+  console.log(city);
+}
+
+// Iterating Through An Object
+const states = {
+  name: 'San Francisco',
+  state: 'California',
+  population: 871000,
+  bridges: 2
+}
+// For...of loops don't work on objects!
+for (let key in states) {
+  console.log(key, states[key]);
+}
+
+// Looping Through Strings
