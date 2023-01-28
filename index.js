@@ -228,4 +228,6 @@ let programming = {
 programming.languages[3] = 'Go';
 // Change the difficulty to the value of 7
 programming.difficulty = 7;
-// 
+// command to remove the jokes key from the programming object.
+programming.languages.pop()
+console.log(programming)
