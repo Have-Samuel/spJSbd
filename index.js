@@ -238,3 +238,47 @@
 for (let i = 1; i <= 10; i += 2) {
   console.log(i)
 }
+
+// Looping over Arrays
+// a World without Loops
+const cities = [
+  'San Francisco',
+  'Berlin',
+  'Tokyo',
+  'Moscow',
+  'Buenos Aires'
+];
+
+console.log(cities[0]); // "San Francisco"
+console.log(cities[1]); // "Berlin"
+console.log(cities[2]); // "Tokyo"
+console.log(cities[3]); // "Moscow"
+console.log(cities[4]); // "Buenos Aires"
+
+// World with iterating thru an Array
+const cities1 = [
+  'San Francisco-1',
+  'Berlin-1',
+  'Tokyo-1',
+  'Moscow-1',
+  'Buenos Aires-1'
+];
+
+for (let i = 0; i < cities1.length; i++) {
+  console.log(cities1[i])
+}
+
+// WHILE LOOP
+const cities2 = [
+  'San Francisco-2',
+  'Berlin-2',
+  'Tokyo-2',
+  'Moscow-2',
+  'Buenos Aires-2',
+];
+
+let j = 0;
+while (j < cities2.length) {
+  console.log(cities2[j]);
+  j++;
+}
