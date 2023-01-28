@@ -320,3 +320,11 @@ for (let x = 0; x < str.length; x++) {
     includesK = true;
   }
 }
+// Looping Backwards
+let myStr = 'live';
+let reversed = '';
+
+for (let i = myStr.length - 1; i >= 0; i--) {
+  reversed += myStr[i];
+}
+console.log(reversed);
