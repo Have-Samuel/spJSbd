@@ -368,84 +368,84 @@
 // console.log(Object.keys(weirdObj));
 
 // // OBJECT.VALUES
-// // Accepts an object
-// // Returns an array of the object’s values
-// // Values are in the same order as in a for…in loop
+// Accepts an object
+// Returns an array of the object’s values
+// Values are in the same order as in a for…in loop
 
-// let weirdOb = {
-//   hereIsAKey: 'here is a value',
-//   10: 'number key!',
-//   thisIsABooleam: true,
-//   5: 'another numberkey!',
-//   nullValue: null,
-// };
-// console.log(Object.values(weirdOb));
+let weirdOb = {
+  hereIsAKey: 'here is a value',
+  10: 'number key!',
+  thisIsABooleam: true,
+  5: 'another numberkey!',
+  nullValue: null,
+};
+console.log(Object.values(weirdOb));
 
 // // NESTED ARRAYS
-// const tictaktoe = [
-//   ['X', 'O', 'X'],
-//   ['X', 'O', 'X'],
-//   ['X', 'O', 'X']
-// ];
+const tictaktoe = [
+  ['X', 'O', 'X'],
+  ['X', 'O', 'X'],
+  ['X', 'O', 'X']
+];
 
-// const maze = [
-//   [1, 0, 1, 0, 1, 'END'],
-//   [0, 1, 0, 0, 1, 0],
-//   [0, 0, 1, 0, 0, 0],
-//   [1, 0, 1, 0, 0, 0],
-//   [0, 1, 0, 0, 1, 0],
-//   [1, 1, 1, 0, 0, 1],
-//   ['START', 0, 0, 0, 0, 0]
-// ];
+const maze = [
+  [1, 0, 1, 0, 1, 'END'],
+  [0, 1, 0, 0, 1, 0],
+  [0, 0, 1, 0, 0, 0],
+  [1, 0, 1, 0, 0, 0],
+  [0, 1, 0, 0, 1, 0],
+  [1, 1, 1, 0, 0, 1],
+  ['START', 0, 0, 0, 0, 0]
+];
 
 // // Iterating over Nested Arrays
-// const tictoktoe = [
-//   ['X', 'O', 'X'],
-//   ['X', 'O', 'X'],
-//   ['X', 'O', 'X'],
-// ];
-// let xCount = 0;
+const tictoktoe = [
+  ['X', 'O', 'X'],
+  ['X', 'O', 'X'],
+  ['X', 'O', 'X'],
+];
+let xCount = 0;
 
-// for (let i = 0; i < tictoktoe.length; i++) {
-//   for (let j = 0; j < tictoktoe[i].length; j++) {
-//     if (tictoktoe[i][j] === 'X') {
-//       xCount++
-//     }
-//   }
-// }
+for (let i = 0; i < tictoktoe.length; i++) {
+  for (let j = 0; j < tictoktoe[i].length; j++) {
+    if (tictoktoe[i][j] === 'X') {
+      xCount++
+    }
+  }
+}
 
 // //Nested Objects
-// let data = {
-//   artist: 'The Beatles',
-//   albums: [
-//     {
-//       title: 'Abbey Road',
-//       producer: 'George Martin',
-//       releaseYear: 1969,
-//       numTracks: 17,
-//       length: '47:23'
-//     },
-//     {
-//       title: 'Sgt. Pepper\'s Lonely Hearts Club Band',
-//       producer: 'George Martin',
-//       releaseYear: 1967,
-//       numTracks: 13
-//     }
-//   ]
-// };
+let data = {
+  artist: 'The Beatles',
+  albums: [
+    {
+      title: 'Abbey Road',
+      producer: 'George Martin',
+      releaseYear: 1969,
+      numTracks: 17,
+      length: '47:23'
+    },
+    {
+      title: 'Sgt. Pepper\'s Lonely Hearts Club Band',
+      producer: 'George Martin',
+      releaseYear: 1967,
+      numTracks: 13
+    }
+  ]
+};
 
 // // Iterating over an Array in an object
-// for (let album of data.albums) {
-//   console.log('The title is', album.title)
-// }
+for (let album of data.albums) {
+  console.log('The title is', album.title)
+}
 
-// for (num = 1; num <= 20; num++) {
-// console.log(`${num}X${num}= ${num}*${num}`)
-// }
+for (num = 1; num <= 20; num++) {
+console.log(`${num}X${num}= ${num}*${num}`)
+}
 
-// for (let j = 30; j >= 0; j -= 5) {
-//   console.log(j);
-// }
+for (let j = 30; j >= 0; j -= 5) {
+  console.log(j);
+}
 
 const examScore = [94, 46, 32, 67, 98, 23, 14]
 
@@ -490,4 +490,12 @@ for (let i = 0; i < myStudents.length; i++) {
   let student = myStudents[i];
   total += student.grade;
 }
-console.log(total/myStudents.length);
+console.log(total / myStudents.length);
+
+// Nested LOOPs
+for (let t = 1; t <= 10; t++) {
+  console.log('   OUTER LOOP', t);
+  for (y = 10; y >= 0; y-=2) {
+    console.log('INNER LOOP', y)
+  }
+}
