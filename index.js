@@ -533,13 +533,22 @@
 //   guess = Math.floor(Math.random() * 10);
 // }
 
-const target = Math.floor(Math.random() * 10)
-let guess = Math.floor(Math.random() * 10);
+// const target = Math.floor(Math.random() * 10)
+// let guess = Math.floor(Math.random() * 10);
 
-while (true) {
-  if (guess === target)break;
-  console.log(`Target: ${target} Guess: ${guess}`);
-  guess = Math.floor(Math.random() * 10);
+// while (true) {
+//   if (guess === target)break;
+//   console.log(`Target: ${target} Guess: ${guess}`);
+//   guess = Math.floor(Math.random() * 10);
+// }
+// console.log(`Target: ${target} Guess: ${guess}`);
+// console.log('CONGRATS YOU WIN!!')
+
+const subreddits = ['book', 'cringe', 'popheads', 'prophets'];
+for (let sub of subreddits) {
+  console.log(sub)
 }
-console.log(`Target: ${target} Guess: ${guess}`);
-console.log('CONGRATS YOU WIN!!')
+
+for (let char of 'kabareebe') {
+  console.log(char.toUpperCase())
+}
