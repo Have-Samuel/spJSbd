@@ -517,12 +517,22 @@
 //   }
 // }
 
-for (let i = 0; i <= 5; i++) {
-  console.log(i)
+// for (let i = 0; i <= 5; i++) {
+//   console.log(i)
+// }
+
+// let j = 0;
+// while (j <= 5) {
+//   console.log(j)
+//   j++;
+// }
+
+const target = Math.floor(Math.random() * 10)
+let guess = Math.floor(Math.random() * 10);
+while (guess !== target) {
+  console.log(`Target: ${target} Guess: ${guess}`);
+  guess = Math.floor(Math.random() * 10);
 }
 
-let j = 0;
-while (j <= 5) {
-  console.log(j)
-  j++;
-}
+console.log(`Target: ${target} Guess: ${guess}`);
+console.log('CONGRATS YOU WIN!!')
