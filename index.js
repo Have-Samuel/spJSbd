@@ -450,5 +450,29 @@
 const examScore = [94, 46, 32, 67, 98, 23, 14]
 
 for (let i = 0; i < examScore.length; i++) {
-  console.log(i, examScore[i])
+  // console.log(i, examScore[i])
+}
+const myStudents = [
+  {
+    firstName: 'Zues',
+    grade: 86,
+  },
+  {
+    firstName: 'Artemis',
+    grade: 97,
+  },
+  {
+    firstName: 'Hera',
+    grade: 72,
+  },
+  {
+    firstName: 'Apollo',
+    grade: 90,
+  },
+];
+
+for (let i = 0; i < myStudents.length; i++) {
+  let student = myStudents[i];
+  // console.log(student);
+  console.log(`${student.firstName} scored ${student.grade}`)
 }
