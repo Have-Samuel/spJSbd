@@ -631,7 +631,14 @@ const magicSquare = [
 //   j++;
 // }
 
-// EVEN NUMBERS TO 20
-for (let i = 0; i <= 20; i+=2) {
-  console.log(i);
+// // EVEN NUMBERS TO 20
+// for (let i = 0; i <= 20; i+=2) {
+//   console.log(i);
+// }
+
+// Odd numbers to 20
+let j = 1;
+while (j <= 20) {
+  console.log(j);
+  j+=2;
 }
