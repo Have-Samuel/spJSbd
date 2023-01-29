@@ -442,3 +442,7 @@ for (let album of data.albums) {
 for (num = 1; num <= 20; num++) {
 console.log(`${num}X${num}= ${num}*${num}`)
 }
+
+for (let j = 30; j >= 0; j -= 5) {
+  console.log(j);
+}
