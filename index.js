@@ -483,3 +483,11 @@ for (let i = word.length - 1; i >= 0; i--) {
   reversedWord += word[i];
 }
 console.log(reversedWord);
+
+// Finding the average
+let total = 0;
+for (let i = 0; i < myStudents.length; i++) {
+  let student = myStudents[i];
+  total += student.grade;
+}
+console.log(total/myStudents.length);
