@@ -571,10 +571,18 @@ const magicSquare = [
 // }
 
 // FOR OF LOOP
-for (let row of magicSquare) {
-  let sum = 0;
-  for (let num of row) {
-    sum += num;
-  }
-  console.log(`${row} summed to ${sum}`);
+// for (let row of magicSquare) {
+//   let sum = 0;
+//   for (let num of row) {
+//     sum += num;
+//   }
+//   console.log(`${row} summed to ${sum}`);
+// }
+
+// WHERE FOR OF LOOP IS NOT APPLICABLE
+const word1 = ['mail', 'milk', 'bath', 'black'];
+const word2 = ['box', 'shake', 'tub', 'berry'];
+
+for (let i = 0; i < word1.length; i++) {
+  console.log(`${word1[1]}${word2[i]}`);
 }
