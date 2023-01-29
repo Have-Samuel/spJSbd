@@ -586,3 +586,24 @@ const word2 = ['box', 'shake', 'tub', 'berry'];
 for (let i = 0; i < word1.length; i++) {
   console.log(`${word1[1]}${word2[i]}`);
 }
+
+// LOOPING OVER OBJECTS
+const movieReviews = {
+  Arrival: 9.5,
+  Alien: 9,
+  Amelie: 8,
+  'InBruges': 9,
+  Amadeus: 10,
+  'Kill Bill': 8,
+  'Little Miss Sunshine': 8.5,
+  Caroline: 7.5
+};
+
+// DOES NOT WORK!!!!!!
+// for (let X of movieReviews) {
+//   console.log(x)
+// }
+
+for (let movie of Object.keys(movieReviews)) {
+  console.log(movie)
+}
