@@ -606,10 +606,14 @@ const movieReviews = {
 
 //Object.keys
 for (let movie of Object.keys(movieReviews)) {
-  console.log(movie)
+  console.log(movie, movieReviews[movie]);
 }
 
 // Object.values
-for (let movie of Object.values(movieReviews)) {
-  console.log(movie);
+const rating = Object.values(movieReviews);
+let sum = 0
+for (let r of rating) {
+  sum += r;
 }
+const avg = sum / rating.length;
+console.log(avg);
