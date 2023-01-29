@@ -561,11 +561,20 @@ const magicSquare = [
   [4,3,8]
 ]
 
-for (let i = 0; i < magicSquare.length; i++) {
-  let row = magicSquare[i];
-  let sum = 0
-  for (j = 0; j < row.length; j++) {
-    sum += row[j]
+// for (let i = 0; i < magicSquare.length; i++) {
+//   let row = magicSquare[i];
+//   let sum = 0
+//   for (j = 0; j < row.length; j++) {
+//     sum += row[j]
+//   }
+//   console.log(`${row} summed to ${sum}`);
+// }
+
+// FOR OF LOOP
+for (let row of magicSquare) {
+  let sum = 0;
+  for (let num of row) {
+    sum += num;
   }
   console.log(`${row} summed to ${sum}`);
 }
