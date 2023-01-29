@@ -474,5 +474,12 @@ const myStudents = [
 for (let i = 0; i < myStudents.length; i++) {
   let student = myStudents[i];
   // console.log(student);
-  console.log(`${student.firstName} scored ${student.grade}`)
+  // console.log(`${student.firstName} scored ${student.grade}`)
 }
+// Reveresed LOOP
+const word = 'stressed';
+let reversedWord = '';
+for (let i = word.length - 1; i >= 0; i--) {
+  reversedWord += word[i];
+}
+console.log(reversedWord);
