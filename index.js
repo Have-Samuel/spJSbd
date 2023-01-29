@@ -544,11 +544,28 @@
 // console.log(`Target: ${target} Guess: ${guess}`);
 // console.log('CONGRATS YOU WIN!!')
 
-const subreddits = ['book', 'cringe', 'popheads', 'prophets'];
-for (let sub of subreddits) {
-  console.log(sub)
-}
+// const subreddits = ['book', 'cringe', 'popheads', 'prophets'];
+// for (let sub of subreddits) {
+//   console.log(sub)
+// }
 
-for (let char of 'kabareebe') {
-  console.log(char.toUpperCase())
+// for (let char of 'kabareebe') {
+//   console.log(char.toUpperCase())
+// }
+
+// COMPARIG FOR OF LOOP WITH STANDARD LOOP
+
+const magicSquare = [
+  [2,7,6],
+  [9,5,1],
+  [4,3,8]
+]
+
+for (let i = 0; i < magicSquare.length; i++) {
+  let row = magicSquare[i];
+  let sum = 0
+  for (j = 0; j < row.length; j++) {
+    sum += row[j]
+  }
+  console.log(`${row} summed to ${sum}`);
 }
