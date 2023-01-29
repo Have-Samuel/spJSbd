@@ -500,19 +500,29 @@
 //   }
 // }
 
-const gameBoard = [
-  [4, 32, 8, 4],
-  [64, 8, 32, 2],
-  [8, 32, 16, 4],
-  [2, 8, 4, 2]
-];
-let totalSum = 0;
-for (let z = 0; z < gameBoard.length; z++) {
-  let row = gameBoard[z];
-  // console.log(gameBoard[z]);
-  for (let r = 0; r < row.length; r++) {
-    // console.log(row[r])
-    //Suming up
-    totalSum += row[r];
-  }
+// const gameBoard = [
+//   [4, 32, 8, 4],
+//   [64, 8, 32, 2],
+//   [8, 32, 16, 4],
+//   [2, 8, 4, 2]
+// ];
+// let totalSum = 0;
+// for (let z = 0; z < gameBoard.length; z++) {
+//   let row = gameBoard[z];
+//   // console.log(gameBoard[z]);
+//   for (let r = 0; r < row.length; r++) {
+//     // console.log(row[r])
+//     //Suming up
+//     totalSum += row[r];
+//   }
+// }
+
+for (let i = 0; i <= 5; i++) {
+  console.log(i)
+}
+
+let j = 0;
+while (j <= 5) {
+  console.log(j)
+  j++;
 }
