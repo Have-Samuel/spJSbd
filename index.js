@@ -604,6 +604,12 @@ const movieReviews = {
 //   console.log(x)
 // }
 
+//Object.keys
 for (let movie of Object.keys(movieReviews)) {
   console.log(movie)
+}
+
+// Object.values
+for (let movie of Object.values(movieReviews)) {
+  console.log(movie);
 }
