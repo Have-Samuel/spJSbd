@@ -637,8 +637,13 @@ const magicSquare = [
 // }
 
 // Odd numbers to 20
-let j = 1;
-while (j <= 20) {
-  console.log(j);
-  j+=2;
+// let j = 1;
+// while (j <= 20) {
+//   console.log(j);
+//   j+=2;
+// }
+
+// Back to ZERO
+for (let i = 10; i >= 0; i--) {
+  console.log(i);
 }
