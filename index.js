@@ -580,24 +580,24 @@ const magicSquare = [
 // }
 
 // WHERE FOR OF LOOP IS NOT APPLICABLE
-const word1 = ['mail', 'milk', 'bath', 'black'];
-const word2 = ['box', 'shake', 'tub', 'berry'];
+// const word1 = ['mail', 'milk', 'bath', 'black'];
+// const word2 = ['box', 'shake', 'tub', 'berry'];
 
-for (let i = 0; i < word1.length; i++) {
-  console.log(`${word1[1]}${word2[i]}`);
-}
+// for (let i = 0; i < word1.length; i++) {
+//   console.log(`${word1[1]}${word2[i]}`);
+// }
 
-// LOOPING OVER OBJECTS
-const movieReviews = {
-  Arrival: 9.5,
-  Alien: 9,
-  Amelie: 8,
-  'InBruges': 9,
-  Amadeus: 10,
-  'Kill Bill': 8,
-  'Little Miss Sunshine': 8.5,
-  Caroline: 7.5
-};
+// // LOOPING OVER OBJECTS
+// const movieReviews = {
+//   Arrival: 9.5,
+//   Alien: 9,
+//   Amelie: 8,
+//   'InBruges': 9,
+//   Amadeus: 10,
+//   'Kill Bill': 8,
+//   'Little Miss Sunshine': 8.5,
+//   Caroline: 7.5
+// };
 
 // DOES NOT WORK!!!!!!
 // for (let X of movieReviews) {
@@ -605,15 +605,28 @@ const movieReviews = {
 // }
 
 //Object.keys
-for (let movie of Object.keys(movieReviews)) {
-  console.log(movie, movieReviews[movie]);
+// for (let movie of Object.keys(movieReviews)) {
+//   console.log(movie, movieReviews[movie]);
+// }
+
+// // Object.values
+// const rating = Object.values(movieReviews);
+// let sum = 0
+// for (let r of rating) {
+//   sum += r;
+// }
+// const avg = sum / rating.length;
+// console.log(avg);
+
+//FINAL EXERCISE FOR LOOPS
+// for Loop
+for (let i = 0; i <= 10; i++) {
+  console.log(i);
 }
 
-// Object.values
-const rating = Object.values(movieReviews);
-let sum = 0
-for (let r of rating) {
-  sum += r;
+// while LOOP
+let j = 0;
+while (j <= 10) {
+  console.log(j);
+  j++;
 }
-const avg = sum / rating.length;
-console.log(avg);
