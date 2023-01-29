@@ -18,3 +18,15 @@ throwDice(6)
 function greet(nickname) {
   console.log(`Hey ${nickname}`);
 }
+
+function square(a, b) {
+  console.log(a * b);
+}
+
+function divide(x, y) {
+  console.log(x / y);
+}
+
+function sum(num1, num2) {
+  console.log(num1 + num2)
+}
