@@ -235,214 +235,220 @@
 
 // LOOPS
 // Loop for ODD NUMS
-for (let i = 1; i <= 10; i += 2) {
-  console.log(i)
-}
+// for (let i = 1; i <= 10; i += 2) {
+//   console.log(i)
+// }
 
-// Looping over Arrays
-// a World without Loops
-const cities = [
-  'San Francisco',
-  'Berlin',
-  'Tokyo',
-  'Moscow',
-  'Buenos Aires'
-];
+// // Looping over Arrays
+// // a World without Loops
+// const cities = [
+//   'San Francisco',
+//   'Berlin',
+//   'Tokyo',
+//   'Moscow',
+//   'Buenos Aires'
+// ];
 
-console.log(cities[0]); // "San Francisco"
-console.log(cities[1]); // "Berlin"
-console.log(cities[2]); // "Tokyo"
-console.log(cities[3]); // "Moscow"
-console.log(cities[4]); // "Buenos Aires"
+// console.log(cities[0]); // "San Francisco"
+// console.log(cities[1]); // "Berlin"
+// console.log(cities[2]); // "Tokyo"
+// console.log(cities[3]); // "Moscow"
+// console.log(cities[4]); // "Buenos Aires"
 
-// World with iterating thru an Array
-const cities1 = [
-  'San Francisco-1',
-  'Berlin-1',
-  'Tokyo-1',
-  'Moscow-1',
-  'Buenos Aires-1'
-];
+// // World with iterating thru an Array
+// const cities1 = [
+//   'San Francisco-1',
+//   'Berlin-1',
+//   'Tokyo-1',
+//   'Moscow-1',
+//   'Buenos Aires-1'
+// ];
 
-for (let i = 0; i < cities1.length; i++) {
-  console.log(cities1[i])
-}
+// for (let i = 0; i < cities1.length; i++) {
+//   console.log(cities1[i])
+// }
 
-// WHILE LOOP
-const cities2 = [
-  'San Francisco-2',
-  'Berlin-2',
-  'Tokyo-2',
-  'Moscow-2',
-  'Buenos Aires-2',
-];
+// // WHILE LOOP
+// const cities2 = [
+//   'San Francisco-2',
+//   'Berlin-2',
+//   'Tokyo-2',
+//   'Moscow-2',
+//   'Buenos Aires-2',
+// ];
 
-let j = 0;
-while (j < cities2.length) {
-  console.log(cities2[j]);
-  j++;
-}
+// let j = 0;
+// while (j < cities2.length) {
+//   console.log(cities2[j]);
+//   j++;
+// }
 
-// FOR OF LOOP
-//By default, for loops in JavaScript iterate through indices
-// With a for…of loop, we can iterate through the elements directly!
-const cities3 = [
-  'San Francisco-3',
-  'Berlin-3',
-  'Tokyo-3',
-  'Moscow-3',
-  'Buenos Aires-3',
-];
+// // FOR OF LOOP
+// //By default, for loops in JavaScript iterate through indices
+// // With a for…of loop, we can iterate through the elements directly!
+// const cities3 = [
+//   'San Francisco-3',
+//   'Berlin-3',
+//   'Tokyo-3',
+//   'Moscow-3',
+//   'Buenos Aires-3',
+// ];
 
-for (let city of cities3) {
-  console.log(city);
-}
+// for (let city of cities3) {
+//   console.log(city);
+// }
 
-// Iterating Through An Object
-const states = {
-  name: 'San Francisco',
-  state: 'California',
-  population: 871000,
-  bridges: 2
-}
-// For...of loops don't work on objects!
-for (let key in states) {
-  console.log(key, states[key]);
-}
+// // Iterating Through An Object
+// const states = {
+//   name: 'San Francisco',
+//   state: 'California',
+//   population: 871000,
+//   bridges: 2
+// }
+// // For...of loops don't work on objects!
+// for (let key in states) {
+//   console.log(key, states[key]);
+// }
 
-// Looping Through Strings
-let str = 'pancakes';
-// does the string include a 'k'
-let includesK = false;
+// // Looping Through Strings
+// let str = 'pancakes';
+// // does the string include a 'k'
+// let includesK = false;
 
-for (let x = 0; x < str.length; x++) {
-  if (str[x] === 'k') {
-    includesK = true;
-  }
-}
-// Looping Backwards
-let myStr = 'live';
-let reversed = '';
+// for (let x = 0; x < str.length; x++) {
+//   if (str[x] === 'k') {
+//     includesK = true;
+//   }
+// }
+// // Looping Backwards
+// let myStr = 'live';
+// let reversed = '';
 
-for (let i = myStr.length - 1; i >= 0; i--) {
-  reversed += myStr[i];
-}
-console.log(reversed);
+// for (let i = myStr.length - 1; i >= 0; i--) {
+//   reversed += myStr[i];
+// }
+// console.log(reversed);
 
-// WHILE LOOP
-let t = 0;
-while (t < 3) {
-  console.log(t)
-  t++;
-}
+// // WHILE LOOP
+// let t = 0;
+// while (t < 3) {
+//   console.log(t)
+//   t++;
+// }
 
-//BREAK
-//find the index of a character, like string.indexOf()
-let idx;
-for (let i = 0; i < str.length; i++) {
-  if (str[i] === 't') {
-    idx = i;
-    break;// since we no longer need to searc the string
-  }
-}
+// //BREAK
+// //find the index of a character, like string.indexOf()
+// let idx;
+// for (let i = 0; i < str.length; i++) {
+//   if (str[i] === 't') {
+//     idx = i;
+//     break;// since we no longer need to searc the string
+//   }
+// }
 
-// CONTINUE
-for (i = 0; i < 5; i++) {
-  if (i > 2 && i < 4) {
-    continue; // skip these numbers!
-  }
-  console.log(i)
-}
+// // CONTINUE
+// for (i = 0; i < 5; i++) {
+//   if (i > 2 && i < 4) {
+//     continue; // skip these numbers!
+//   }
+//   console.log(i)
+// }
 
-// OBJECT KEYS
-// Accepts an object
-// Returns an array of the object’s keys
-// Keys are in the same order as in a for…in loop
-let weirdObj = {
-  hereIsAKey: 'here is a value',
-  '10': 'number key!',
-  thisIsABooleam: true,
-  '5': 'another numberkey!',
-  nullValue: null
-}
-console.log(Object.keys(weirdObj));
+// // OBJECT KEYS
+// // Accepts an object
+// // Returns an array of the object’s keys
+// // Keys are in the same order as in a for…in loop
+// let weirdObj = {
+//   hereIsAKey: 'here is a value',
+//   '10': 'number key!',
+//   thisIsABooleam: true,
+//   '5': 'another numberkey!',
+//   nullValue: null
+// }
+// console.log(Object.keys(weirdObj));
 
-// OBJECT.VALUES
-// Accepts an object
-// Returns an array of the object’s values
-// Values are in the same order as in a for…in loop
+// // OBJECT.VALUES
+// // Accepts an object
+// // Returns an array of the object’s values
+// // Values are in the same order as in a for…in loop
 
-let weirdOb = {
-  hereIsAKey: 'here is a value',
-  10: 'number key!',
-  thisIsABooleam: true,
-  5: 'another numberkey!',
-  nullValue: null,
-};
-console.log(Object.values(weirdOb));
+// let weirdOb = {
+//   hereIsAKey: 'here is a value',
+//   10: 'number key!',
+//   thisIsABooleam: true,
+//   5: 'another numberkey!',
+//   nullValue: null,
+// };
+// console.log(Object.values(weirdOb));
 
-// NESTED ARRAYS
-const tictaktoe = [
-  ['X', 'O', 'X'],
-  ['X', 'O', 'X'],
-  ['X', 'O', 'X']
-];
+// // NESTED ARRAYS
+// const tictaktoe = [
+//   ['X', 'O', 'X'],
+//   ['X', 'O', 'X'],
+//   ['X', 'O', 'X']
+// ];
 
-const maze = [
-  [1, 0, 1, 0, 1, 'END'],
-  [0, 1, 0, 0, 1, 0],
-  [0, 0, 1, 0, 0, 0],
-  [1, 0, 1, 0, 0, 0],
-  [0, 1, 0, 0, 1, 0],
-  [1, 1, 1, 0, 0, 1],
-  ['START', 0, 0, 0, 0, 0]
-];
+// const maze = [
+//   [1, 0, 1, 0, 1, 'END'],
+//   [0, 1, 0, 0, 1, 0],
+//   [0, 0, 1, 0, 0, 0],
+//   [1, 0, 1, 0, 0, 0],
+//   [0, 1, 0, 0, 1, 0],
+//   [1, 1, 1, 0, 0, 1],
+//   ['START', 0, 0, 0, 0, 0]
+// ];
 
-// Iterating over Nested Arrays
-const tictoktoe = [
-  ['X', 'O', 'X'],
-  ['X', 'O', 'X'],
-  ['X', 'O', 'X'],
-];
-let xCount = 0;
+// // Iterating over Nested Arrays
+// const tictoktoe = [
+//   ['X', 'O', 'X'],
+//   ['X', 'O', 'X'],
+//   ['X', 'O', 'X'],
+// ];
+// let xCount = 0;
 
-for (let i = 0; i < tictoktoe.length; i++) {
-  for (let j = 0; j < tictoktoe[i].length; j++) {
-    if (tictoktoe[i][j] === 'X') {
-      xCount++
-    }
-  }
-}
+// for (let i = 0; i < tictoktoe.length; i++) {
+//   for (let j = 0; j < tictoktoe[i].length; j++) {
+//     if (tictoktoe[i][j] === 'X') {
+//       xCount++
+//     }
+//   }
+// }
 
-//Nested Objects
-let data = {
-  artist: 'The Beatles',
-  albums: [
-    {
-      title: 'Abbey Road',
-      producer: 'George Martin',
-      releaseYear: 1969,
-      numTracks: 17,
-      length: '47:23'
-    },
-    {
-      title: 'Sgt. Pepper\'s Lonely Hearts Club Band',
-      producer: 'George Martin',
-      releaseYear: 1967,
-      numTracks: 13
-    }
-  ]
-};
+// //Nested Objects
+// let data = {
+//   artist: 'The Beatles',
+//   albums: [
+//     {
+//       title: 'Abbey Road',
+//       producer: 'George Martin',
+//       releaseYear: 1969,
+//       numTracks: 17,
+//       length: '47:23'
+//     },
+//     {
+//       title: 'Sgt. Pepper\'s Lonely Hearts Club Band',
+//       producer: 'George Martin',
+//       releaseYear: 1967,
+//       numTracks: 13
+//     }
+//   ]
+// };
 
-// Iterating over an Array in an object
-for (let album of data.albums) {
-  console.log('The title is', album.title)
-}
+// // Iterating over an Array in an object
+// for (let album of data.albums) {
+//   console.log('The title is', album.title)
+// }
 
-for (num = 1; num <= 20; num++) {
-console.log(`${num}X${num}= ${num}*${num}`)
-}
+// for (num = 1; num <= 20; num++) {
+// console.log(`${num}X${num}= ${num}*${num}`)
+// }
 
-for (let j = 30; j >= 0; j -= 5) {
-  console.log(j);
+// for (let j = 30; j >= 0; j -= 5) {
+//   console.log(j);
+// }
+
+const examScore = [94, 46, 32, 67, 98, 23, 14]
+
+for (let i = 0; i < examScore.length; i++) {
+  console.log(i, examScore[i])
 }
