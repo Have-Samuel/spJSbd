@@ -618,15 +618,20 @@ const magicSquare = [
 // const avg = sum / rating.length;
 // console.log(avg);
 
-//FINAL EXERCISE FOR LOOPS
-// for Loop
-for (let i = 0; i <= 10; i++) {
-  console.log(i);
-}
+// //FINAL EXERCISE FOR LOOPS
+// // for Loop
+// for (let i = 0; i <= 10; i++) {
+//   console.log(i);
+// }
 
-// while LOOP
-let j = 0;
-while (j <= 10) {
-  console.log(j);
-  j++;
+// // while LOOP
+// let j = 0;
+// while (j <= 10) {
+//   console.log(j);
+//   j++;
+// }
+
+// EVEN NUMBERS TO 20
+for (let i = 0; i <= 20; i+=2) {
+  console.log(i);
 }
