@@ -30,3 +30,7 @@ function divide(x, y) {
 function sum(num1, num2) {
   console.log(num1 + num2)
 }
+
+function subtract(u, m) {
+  return u - m;
+}
