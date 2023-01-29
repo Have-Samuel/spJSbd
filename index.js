@@ -506,10 +506,13 @@ const gameBoard = [
   [8, 32, 16, 4],
   [2, 8, 4, 2]
 ];
+let totalSum = 0;
 for (let z = 0; z < gameBoard.length; z++) {
   let row = gameBoard[z];
-  console.log(gameBoard[z]);
+  // console.log(gameBoard[z]);
   for (let r = 0; r < row.length; r++) {
-    console.log(row[r])
+    // console.log(row[r])
+    //Suming up
+    totalSum += row[r];
   }
 }
