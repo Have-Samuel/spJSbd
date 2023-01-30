@@ -11,3 +11,16 @@ dayOfBirth, which is a number set to the day of your birth month
 5 - What is the difference between null and undefined?
 6 - What is NaN in JavaScript? What is the typeof NaN?
 7 - You can declare a variable by typing let thing;. What is the value of thing?
+
+<!-- 
+- wtite a isvalidPassword function
+- It accepts two argements: password & username
+- Password must:
+  * be at least 8 characters
+  * cannot contain the username
+  * cannot contain spaces
+-If all requirements are met, return true, otherwise false.
+- isValidPassword('89Fjjnms', 'dogLuvr'); //true
+- isValidPassword ('dogLuvr123!', 'dogLuvr'); //false
+- isValidPassword ('hello1', 'dogLuvr'); //false
+-->

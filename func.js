@@ -35,10 +35,10 @@
 //   return u - m;
 // }
 
-function square(x) {
-  return x * x;
-  console.log() // this never works after return
-}
+// function square(x) {
+//   return x * x;
+//   console.log() // this never works after return
+// }
 
 // function isPurple(color) {
 //   if (color.toLowerCase() === 'purple') {
@@ -61,12 +61,53 @@ function square(x) {
 //   return color.toLowerCase() === 'purple';
 // }
 
-function containPink(arr) {
-  for (let color of arr) {
-    if (color === 'pink' || color === 'magenta') {
-      return true;
-    }
-  }
-  return false;
+// function containPink(arr) {
+//   for (let color of arr) {
+//     if (color === 'pink' || color === 'magenta') {
+//       return true;
+//     }
+//   }
+//   return false;
+// }
+// arr = ['red', 'magenta', 'pink']
+
+// **EXERCISE 1** //
+// => Method 1
+// function isValidPassword(password, username) {
+//   if (password < 8) {
+//     return false;
+//   }
+//   if (password.indexOf(' ') !== -1) {
+//     return false;
+//   }
+//   if (password.indexOf(username) !== -1) {
+//     return false;
+//   }
+//   return true;
+// }
+
+// **EXERCISE 1** //
+// => Method 2
+// function isValidPassword(password, username) {
+//   if (
+//     password.length < 8 ||
+//     password.indexOf(' ') !== -1 ||
+//     password.indexOf(username) !== -1) {
+//     return false;
+//     }
+//   return true;
+// }
+
+// **EXERCISE 1** //
+// => Method 3
+function isValidPassword(password, username) {
+  const toShort = password.length < 8;
+  const hasSpaces = password.indexOf(' ') !== -1;
+  const soSimilar = password.indexOf(username) !== -1;
+  // if (toShort || hasSpaces || soSimilar) return false;
+  // return true;
+  // if (!toShort && !hasSpaces && !soSimilar) return true;
+  // return false;
+  return !toShort && !hasSpaces && !soSimilar;
+  
 }
-arr = ['red', 'magenta', 'pink']
