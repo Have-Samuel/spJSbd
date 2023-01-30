@@ -98,16 +98,28 @@
 //   return true;
 // }
 
-// **EXERCISE 1** //
-// => Method 3
-function isValidPassword(password, username) {
-  const toShort = password.length < 8;
-  const hasSpaces = password.indexOf(' ') !== -1;
-  const soSimilar = password.indexOf(username) !== -1;
-  // if (toShort || hasSpaces || soSimilar) return false;
-  // return true;
-  // if (!toShort && !hasSpaces && !soSimilar) return true;
-  // return false;
-  return !toShort && !hasSpaces && !soSimilar;
-  
+// // **EXERCISE 1** //
+// // => Method 3
+// function isValidPassword(password, username) {
+//   const toShort = password.length < 8;
+//   const hasSpaces = password.indexOf(' ') !== -1;
+//   const soSimilar = password.indexOf(username) !== -1;
+//   // if (toShort || hasSpaces || soSimilar) return false;
+//   // return true;
+//   // if (!toShort && !hasSpaces && !soSimilar) return true;
+//   // return false;
+//   return !toShort && !hasSpaces && !soSimilar;
+// }
+
+// **EXERCISE 2**
+// => Method 1
+function average(arr) {
+  let sum = 0;
+// loop over each(parameter)
+  for (let num of arr) {
+    //add them together
+    sum += num;
+  }
+  //divide by number of nums
+  return sum / arr.length;
 }
