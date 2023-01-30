@@ -111,15 +111,28 @@
 //   return !toShort && !hasSpaces && !soSimilar;
 // }
 
+// // **EXERCISE 2**
+// // => Method 1
+// function average(arr) {
+//   let sum = 0;
+// // loop over each(parameter)
+//   for (let num of arr) {
+//     //add them together
+//     sum += num;
+//   }
+//   //divide by number of nums
+//   return sum / arr.length;
+// }
+
 // **EXERCISE 2**
-// => Method 1
-function average(arr) {
-  let sum = 0;
-// loop over each(parameter)
-  for (let num of arr) {
-    //add them together
-    sum += num;
+// // => Method 1
+function isPangram(wording) {
+  let lowerCased = wording.toLowerCase();
+  for (let alpha of 'abcdefghijklmnopqrstuvwxyz') {
+    // if (lowerCased.indexOf(alpha) === -1) {
+    if (!lowerCased.includes(alpha)) {
+      return false;
+    }
   }
-  //divide by number of nums
-  return sum / arr.length;
+  return true;
 }
