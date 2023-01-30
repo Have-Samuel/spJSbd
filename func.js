@@ -124,15 +124,60 @@
 //   return sum / arr.length;
 // }
 
-// **EXERCISE 2**
+// **EXERCISE 3**
 // // => Method 1
-function isPangram(wording) {
-  let lowerCased = wording.toLowerCase();
-  for (let alpha of 'abcdefghijklmnopqrstuvwxyz') {
-    // if (lowerCased.indexOf(alpha) === -1) {
-    if (!lowerCased.includes(alpha)) {
-      return false;
-    }
-  }
-  return true;
+// function isPangram(wording) {
+//   let lowerCased = wording.toLowerCase();
+//   for (let alpha of 'abcdefghijklmnopqrstuvwxyz') {
+//     // if (lowerCased.indexOf(alpha) === -1) {
+//     if (!lowerCased.includes(alpha)) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+
+// **EXERCISE 4**
+// // => Method 1
+// function getCard() {
+//   const values = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
+//   const suits = ['Spade', 'Arces', 'Clubs', 'Diamonds'];
+
+//   const valIdx = Math.floor(Math.random() * values.length);
+//   const value = values[valIdx];
+
+//   const suitIdx = Math.floor(Math.random() * suits.length);
+//   const suit = suits[suitIdx];
+//   return { value: value, suit: suit };
+// }
+
+// // => Method 2
+function pick(arr) {
+  // return random element from arr
+  const idx = Math.floor(Math.random() * arr.length);
+  return arr[idx];
+}
+
+
+function getCard() {
+  const values = [
+    '1',
+    '2',
+    '3',
+    '4',
+    '5',
+    '6',
+    '7',
+    '8',
+    '9',
+    '10',
+    'J',
+    'Q',
+    'K',
+    'A',
+  ];
+  // const value = pick(values);
+  const suits = ['Spade', 'Arces', 'Clubs', 'Diamonds'];
+  // const suit = pick(suits);
+  return { value: pick(values), suit: pick(suits) };// better option
 }
