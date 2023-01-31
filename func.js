@@ -234,3 +234,8 @@ function compareNumber(a, b) {
     return 'Numbers are Equal!'
   }
 }
+
+// EXE=> 5
+function singleLetterCount(word, z) {
+  
+}
