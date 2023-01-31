@@ -237,8 +237,17 @@ function singleLetterCount(word, letter) {
 }
 
 // EXE=> 7
-function multipleLetterCount(string) {
-
+function multipleLetterCount(str) {
+  // str.toUpperCase();
+  let finalObj = {};
+  for (let i = 0; i < str.length; i++) {
+    if (finalObj[str[i]] === undefined) {
+      finalObj[str[i]] = 1;
+    } else {
+      finalObj[str[i]]++;
+    }
+  }
+  return finalObj;
 }
 // EXE=> 8
 function arrayManipulation(string) {
