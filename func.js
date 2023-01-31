@@ -250,8 +250,21 @@ function multipleLetterCount(str) {
   return finalObj;
 }
 // EXE=> 8
-function arrayManipulation(string) {
-
+function arrayManipulation(arr, command, position, val) {
+  if (command === 'remove') {
+    if (position === 'end') {
+      return arr.shift();
+    }
+    return arr.pop();
+  }
+  else if (command === 'add') {
+    if (position === 'end') {
+      arr.push(val);
+      return arr;
+    }
+    arr.unshift(val);
+    return arr;
+  }
 }
 
 // EXE=> 9
