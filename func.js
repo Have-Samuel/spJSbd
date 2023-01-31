@@ -268,6 +268,16 @@ function arrayManipulation(arr, command, position, val) {
 }
 
 // EXE=> 9
+// Method 1
 function isPalindrome(drome) {
-
+  return (
+    drome.toLowerCase().split('').reverse().join('') === drome.toLowerCase()
+  );
+  // Method 2
+  for (i = 0; i < drome.length / 2; i++) {
+    if (drome[i].toLowerCase() !== drome[drome.length-1-I].toLowerCase()) {
+      return false;
+    }
+  }
+  return true;
 } 

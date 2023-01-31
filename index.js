@@ -36,7 +36,7 @@
 // const selectedFruit = fruits.indexOf('guava')
 // console.log(selectedFruit);
 
-// // revered()
+// // reversed()
 // let alphas = ['K', 'A', 'B', 'A', 'R', 'E', 'E', 'B', 'E']
 // const reversedData = alphas.reverse()
 // console.log(reversedData)
