@@ -211,12 +211,7 @@ function printDay(num) {
 // EXE=> 4
 let arr = [1,2,3,4,5];
 function lastElement(arr) {
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] !== []) {
-      return true;
-    }
-  }
-  return false
+  return arr[arr.length - 1]
 }
 
 // EXE=> 5
