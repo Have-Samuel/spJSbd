@@ -223,3 +223,14 @@ function lastElement(arr) {
   }
   return false
 }
+
+// EXE=> 5
+function compareNumber(a, b) {
+  if (a > b) {
+    return 'First Number is greater!';
+  } else if (b > a) {
+    return 'Second Number is greater!'
+  } else {
+    return 'Numbers are Equal!'
+  }
+}
