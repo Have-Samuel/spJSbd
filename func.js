@@ -226,8 +226,14 @@ function compareNumber(a, b) {
 }
 
 // EXE=> 6
-function singleLetterCount(word, z) {
-
+function singleLetterCount(word, letter) {
+  let counter = 0;
+  for (let i = 0; i < word.length; i++) {
+    if (word[i].toLowerCase() === letter.toLowerCase()) {
+      counter++;
+    }
+  }
+  return counter;
 }
 
 // EXE=> 7
