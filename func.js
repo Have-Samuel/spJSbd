@@ -152,32 +152,38 @@
 // }
 
 // // => Method 2
-function pick(arr) {
-  // return random element from arr
-  const idx = Math.floor(Math.random() * arr.length);
-  return arr[idx];
-}
+// function pick(arr) {
+//   // return random element from arr
+//   const idx = Math.floor(Math.random() * arr.length);
+//   return arr[idx];
+// }
 
 
-function getCard() {
-  const values = [
-    '1',
-    '2',
-    '3',
-    '4',
-    '5',
-    '6',
-    '7',
-    '8',
-    '9',
-    '10',
-    'J',
-    'Q',
-    'K',
-    'A',
-  ];
-  // const value = pick(values);
-  const suits = ['Spade', 'Arces', 'Clubs', 'Diamonds'];
-  // const suit = pick(suits);
-  return { value: pick(values), suit: pick(suits) };// better option
+// function getCard() {
+//   const values = [
+//     '1',
+//     '2',
+//     '3',
+//     '4',
+//     '5',
+//     '6',
+//     '7',
+//     '8',
+//     '9',
+//     '10',
+//     'J',
+//     'Q',
+//     'K',
+//     'A',
+//   ];
+//   // const value = pick(values);
+//   const suits = ['Spade', 'Arces', 'Clubs', 'Diamonds'];
+//   // const suit = pick(suits);
+//   return { value: pick(values), suit: pick(suits) };// better option
+// }
+
+// EXE=> 1
+function subtract(num1, num2) {
+  console.log(num1 - num2);
 }
+subtract()
