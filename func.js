@@ -240,7 +240,11 @@ function singleLetterCount(word, z) {
 
 }
 
-// EXE=> 6
+// EXE=> 7
 function multipleLetterCount(string) {
+
+}
+// EXE=> 8
+function arrayManipulation(string) {
 
 }
