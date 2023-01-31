@@ -183,14 +183,32 @@
 // }
 
 // EXE=> 1
-function subtract(num1, num2) {
-  console.log(num1 - num2);
-}
-subtract();
+// function subtract(num1, num2) {
+//   console.log(num1 - num2);
+// }
+// subtract();
 
-// EXE=> 2
-function multiply(x, y) {
-  console.log(x * y);
-}
+// // EXE=> 2
+// function multiply(x, y) {
+//   console.log(x * y);
+// }
+// multiply();
 
-multiply();
+// EXE=> 3
+function printDay(week) {
+  const days = {
+    Monday: 1,
+    Tuesday: 2,
+    Wednesday: 3,
+    Thursday: 4,
+    Friday: 5,
+    Saturday: 6,
+    Sunday: 7
+  }
+
+  const weekSDays = Math.floor(Math.random() * days.length);
+  console.log(weekSDays[days])
+  for (let i = 0; i <= days.length; i++) {
+   
+  }
+}
