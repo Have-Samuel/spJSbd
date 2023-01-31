@@ -235,7 +235,12 @@ function compareNumber(a, b) {
   }
 }
 
-// EXE=> 5
+// EXE=> 6
 function singleLetterCount(word, z) {
-  
+
+}
+
+// EXE=> 6
+function multipleLetterCount(string) {
+
 }
