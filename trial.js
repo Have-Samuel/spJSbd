@@ -35,12 +35,25 @@
 //   }
 // }
 
-function singleLetterCount(steam, letter) {
-  let something = 0;
-  for (let i = 0; i < steam.length; i++) {
-    if (steam[i].toLowerCase() === letter.toLowerCase()) {
-      something++;
+// function singleLetterCount(steam, letter) {
+//   let something = 0;
+//   for (let i = 0; i < steam.length; i++) {
+//     if (steam[i].toLowerCase() === letter.toLowerCase()) {
+//       something++;
+//     }
+//   }
+//   return something;
+// }
+
+function multipleLetterCount(str) {
+  let finalObj = {};
+  str = str.toLowerCase();
+  for (let i = 0; i < str.length; i++) {
+    if (finalObj[str[i]] === undefined) {
+      finalObj[str[i]] = 1;
+    } else {
+      finalObj[str[i]]++;
     }
   }
-  return something;
+  return finalObj;
 }
