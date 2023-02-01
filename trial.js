@@ -21,7 +21,16 @@
 //   return stream[num];
 // }
 
+// function lastElement(arr) {
+//   return arr[arr.length - 1];
+// }
 
-function lastElement(arr) {
-  return arr[arr.length - 1];
-}
+// function numberCompare(num1, num2) {
+//   if (num1 === num2) {
+//     return 'Numbers are equal!'
+//   } else if (num1 > num2) {
+//     return 'First is greater!'
+//   } else {
+//     return 'Second is greater!'
+//   }
+// }
