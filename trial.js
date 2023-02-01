@@ -34,3 +34,13 @@
 //     return 'Second is greater!'
 //   }
 // }
+
+function singleLetterCount(steam, letter) {
+  let something = 0;
+  for (let i = 0; i < steam.length; i++) {
+    if (steam[i].toLowerCase() === letter.toLowerCase()) {
+      something++;
+    }
+  }
+  return something;
+}
