@@ -281,3 +281,44 @@ function isPalindrome(drome) {
   }
   return true;
 } 
+
+
+// Rock / Paper / Scissor
+// using your knowledge so far, build a game of Rock/Paper/Scissor where through the use of the prompt
+// function, a user can enter their choice and based on a random selection - they can either tie / win or lose
+// against a computer.
+
+function RPS() {
+  function determineComputer(num) {
+    if (num <= .33) {
+      return 'Rock';
+    } else if (num <= .66) {
+      return 'Paper';
+    } else {
+      return 'Scissors';
+    }
+    
+ }
+  let userChoice = prompt('choose Rock, Paper, or Scissors').toLowerCase();
+  let computerChoice = determineComputer(Math.random());
+
+  let answers = ('Rock', 'Paper', 'Scissors');
+
+  if (!userChoice || answers.indexOf(userChoice) === -1) {
+    return ('Please enter a valid value!');
+  }
+
+  if (userChoice === computerChoice) return 'Tie!';
+
+  if (userChoice === 'Rock' && computerChoice === 'Paper') {
+    return 'You lost, computer chose' + computerChoice;
+  }
+  if (userChoice === 'Paper' && computerChoice === 'Scissors') {
+    return 'You lost, computer chose' + computerChoice;
+  }
+  if (userChoice === 'Scissors' && computerChoice === 'Rock') {
+    return 'You lost, computer chose' + computerChoice;
+  }
+  return 'You won!, computer picked' + computerChoice;
+}
+
