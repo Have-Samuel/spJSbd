@@ -74,6 +74,36 @@
 //   }
 // }
 
-function isPalindrome(str) {
-  return str.toLowerCase().split('').reverse().join('') === str.toLowercase();
+// function isPalindrome(str) {
+//   return str.toLowerCase().split('').reverse().join('') === str.toLowercase();
+// }
+
+function RPS() {
+  function deterComputer(num) {
+    if (num <= .33) return 'rock';
+    else if (num <= .66) return 'paper';
+    return 'scissors';
+  }
+
+  let userChoice = prompt('Pick rock, paper, or scissors').toLowerCase();
+  let computerChoice = deterComputer(Math.random());
+
+  let answers = ('rock', 'paper', 'scissors');
+
+  if (!userChoice || answers.indexOf(userChoice) === -1) {
+    return 'Please select a valid option!';
+  }
+
+  if (userChoice === computerChoice) return 'Tie!'
+
+  if (userChoice === 'rock' && computerChoice === 'paper') {
+    return 'You lost, computer picked' + computerChoice;
+  }
+  if (userChoice === 'paper' && computerChoice === 'scissors') {
+    return 'You lost, computer picked' + computerChoice; 
+  }
+  if (userChoice === 'scissors' && computerChoice === 'rock') {
+    return 'you lost, computer picked' + computerChoice;
+  }
+  return 'You won!, computer pick' + computerChoice;
 }
