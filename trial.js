@@ -45,15 +45,31 @@
 //   return something;
 // }
 
-function multipleLetterCount(str) {
-  let finalObj = {};
-  str = str.toLowerCase();
-  for (let i = 0; i < str.length; i++) {
-    if (finalObj[str[i]] === undefined) {
-      finalObj[str[i]] = 1;
-    } else {
-      finalObj[str[i]]++;
+// function multipleLetterCount(str) {
+//   let finalObj = {};
+//   str = str.toLowerCase();
+//   for (let i = 0; i < str.length; i++) {
+//     if (finalObj[str[i]] === undefined) {
+//       finalObj[str[i]] = 1;
+//     } else {
+//       finalObj[str[i]]++;
+//     }
+//   }
+//   return finalObj;
+// }
+
+function arrayManipulation(arr, command, position, val) {
+  if (command === 'remove') {
+    if (position === 'end') {
+      return arr.pop();
     }
+    return arr.shift();
+  } else if (command === 'add') {
+    if (position === 'end') {
+      arr.unshift(val);
+      return arr;
+    }
+    arr.push(val);
+    return arr;
   }
-  return finalObj;
 }
