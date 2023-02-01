@@ -58,18 +58,22 @@
 //   return finalObj;
 // }
 
-function arrayManipulation(arr, command, position, val) {
-  if (command === 'remove') {
-    if (position === 'end') {
-      return arr.pop();
-    }
-    return arr.shift();
-  } else if (command === 'add') {
-    if (position === 'end') {
-      arr.unshift(val);
-      return arr;
-    }
-    arr.push(val);
-    return arr;
-  }
+// function arrayManipulation(arr, command, position, val) {
+//   if (command === 'remove') {
+//     if (position === 'end') {
+//       return arr.pop();
+//     }
+//     return arr.shift();
+//   } else if (command === 'add') {
+//     if (position === 'end') {
+//       arr.unshift(val);
+//       return arr;
+//     }
+//     arr.push(val);
+//     return arr;
+//   }
+// }
+
+function isPalindrome(str) {
+  return str.toLowerCase().split('').reverse().join('') === str.toLowercase();
 }
